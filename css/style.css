@@ -1,0 +1,105 @@
+body {
+  background-image: url(../consignes/img/fond.png);
+}
+
+.logo {
+  height: 100px;
+}
+
+.logo1 {
+  display: flex;
+}
+
+h3 {
+  color: palevioletred;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.besoin {
+  align-items: center;
+}
+
+.aide {
+  color: aqua;
+}
+
+.compte h3 {
+  text-align: center;
+  color: white;
+  background-color: #67dcff;
+}
+
+.panier {
+  color: white;
+  background-color: #67dcff;
+  text-align: center;
+}
+
+nav {
+  background-color: aqua;
+  height: 40px;
+}
+
+
+
+a {
+  justify-content: space-between;
+  /* background-color:  #67dcff; */
+  text-decoration: none;
+  color: white;
+  margin: 50px;
+  height: 30px;
+}
+
+.azerty {
+  display: flex;
+  /* padding-left: 10px; */
+  margin: 10px;
+}
+
+H2 {
+  color: blue;
+}
+
+.paiement {
+  margin: 10px;
+}
+.deuxieme {
+  margin: 10px;
+}
+
+#troisieme {
+  display: flex;
+}
+
+.robe {
+  display: flex;
+  margin: 10px;
+}
+#content {
+  margin: auto;
+  width: 1000px;
+}
+
+footer li {
+  background-color: #67dcff;
+  display: flex;
+  list-style-type: none;
+}
+footer ul {
+  background-color: #67dcff;
+  justify-content: space-around;
+  display: flex;
+  color: white;
+}
+.logo {
+  transition: ease-out 3s;
+}
+
+.logo1 img:hover {
+  transform: rotate(360deg);
+}
